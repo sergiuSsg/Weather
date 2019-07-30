@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"> <!--   import css -->
+  </head>
+
+  <body>
+    <div id="searchContainer">
+      <input class="searchControl" type="text" placeholder="City Name / Zip Code"  id="searchInput">
+      <button class="searchControl" id="searchButton">Search</button>
+    </div>
+    <div id="weatherContainer">
+      <div id="weatherDescription">
+        <h1 id="cityHeader"></h1>
+        <div id="weatherMain">
+          <div id="temperature"></div>
+          <div id="weatherDescriptionHeader"></div>
+          <div><img id="documentIconImg"></div>
+      </div>
+      <hr>
+      <div id="minMax" class="bottomDetails"></div>
+      <div id="windSpeed" class="bottomDetails"></div>
+      <div id="humidity" class="bottomDetails"></div>
+    </div>
+  </div>
+
+    <script src="script.js"></script> <!--   import js -->
+  </body>
+</html>
