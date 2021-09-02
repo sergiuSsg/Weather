@@ -1,4 +1,4 @@
 Weather App
 
 
-Basic Weather App built with JavaScript
+Basic Weather App built with JavaScript/Html/Css
